@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/pereira/Personal/Avalonia/Avalonia.MusicStore/Avalonia.MusicStore/Avalonia.MusicStore.csproj": {}
+  },
+  "projects": {
+    "/home/pereira/Personal/Avalonia/Avalonia.MusicStore/Avalonia.MusicStore/Avalonia.MusicStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pereira/Personal/Avalonia/Avalonia.MusicStore/Avalonia.MusicStore/Avalonia.MusicStore.csproj",
+        "projectName": "Avalonia.MusicStore",
+        "projectPath": "/home/pereira/Personal/Avalonia/Avalonia.MusicStore/Avalonia.MusicStore/Avalonia.MusicStore.csproj",
+        "packagesPath": "/home/pereira/.nuget/packages/",
+        "outputPath": "/home/pereira/Personal/Avalonia/Avalonia.MusicStore/Avalonia.MusicStore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pereira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/home/pereira/Work/MediaIBox/dmmapi/NuGet": {},
+          "/home/pereira/Work/MediaIBox/dmmapi/NuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.0.6, )"
+            },
+            "iTunesSearch": {
+              "target": "Package",
+              "version": "[1.0.44, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
